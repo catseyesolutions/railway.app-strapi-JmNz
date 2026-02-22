@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mosques",
+  "info": {
+    "singularName": "mosque",
+    "pluralName": "mosques",
+    "displayName": "Mosque"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "test": {
+      "type": "string"
+    }
+  }
+}
