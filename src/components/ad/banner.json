@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ad_banners",
+  "info": {
+    "displayName": "Banner",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Test": {
+      "type": "string"
+    }
+  }
+}
