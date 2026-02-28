@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "multimedias",
+  "info": {
+    "singularName": "multimedia",
+    "pluralName": "multimedias",
+    "displayName": "Multimedia"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "targetField": "Title",
+      "required": true
+    }
+  }
+}
