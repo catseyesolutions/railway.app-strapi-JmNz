@@ -47,14 +47,6 @@
       },
       "required": true
     },
-    "category": {
-      "type": "string",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "author": {
       "type": "string"
     },
@@ -64,6 +56,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "articles"
     }
   }
 }
